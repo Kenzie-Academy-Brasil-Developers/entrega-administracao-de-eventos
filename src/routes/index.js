@@ -10,14 +10,14 @@ const Routes = () => {
       <Route exact path="/">
         <Home />
       </Route>
-      <Route path='/confra'>
+      <Route path="/confra">
         <Confraternização />
       </Route>
-      <Route path='/wedding'>
-          <Wedding />
+      <Route path="/wedding">
+        <Wedding />
       </Route>
-      <Route path='formatura'>
-          <Formatura />
+      <Route path="/formatura">
+        <Formatura />
       </Route>
     </Switch>
   );
